@@ -1,0 +1,16 @@
+{
+    "name": "lijojose43/pin-validator",
+    "description": "pincode validator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lijo",
+            "email": "lijo@cedextech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "~5.3|~6.0"
+    }
+}

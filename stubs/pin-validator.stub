@@ -1,0 +1,33 @@
+<?php
+namespace App\Rules;
+use GuzzleHttp\Client;
+use Illuminate\Contracts\Validation\Rule;
+class ValidPinCode implements Rule
+{
+    /**
+     * Determine if the validation rule passes.
+     *
+     * @param  string  $attribute
+     * @param  mixed  $value
+     * @return bool
+     */
+    public function passes($attribute, $value)
+    {
+        $client = new Client();
+        $url = 'http://postalpincode.in/api/pincode/' . $value;
+        $body = json_decode($client->get($url)->getBody());
+        if($body->Status == 'Error') {
+           return false;
+        }
+        return true;
+    }
+     /**
+     * Get the validation error message.
+     *
+     * @return string
+     */
+    public function message()
+    {
+        return 'Pincode is not valid.';
+    }
+}
