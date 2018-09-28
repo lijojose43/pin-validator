@@ -1,6 +1,6 @@
 {
     "name": "lijojose43/pin-validator",
-    "description": "pincode validator",
+    "description": "A Laravel Generator For Custom Pin Validator in India",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,8 +9,8 @@
             "email": "lijo@cedextech.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
+        "php": "^7.0",
         "guzzlehttp/guzzle": "~5.3|~6.0"
     },
     "autoload": {
