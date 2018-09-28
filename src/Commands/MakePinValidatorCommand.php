@@ -5,7 +5,7 @@ namespace LijoJoses43\PinValidator\Commands;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Console\GeneratorCommand;
 
-class PinValidatorMakeCommand extends GeneratorCommand
+class MakePinValidatorCommand extends GeneratorCommand
 {
     /**
      * The name and signature of the console command.
@@ -19,7 +19,7 @@ class PinValidatorMakeCommand extends GeneratorCommand
      *
      * @var string
      */
-    protected $description = 'Create a new custom rule for pin validation';
+    protected $description = 'Create a new custom rule for pin validation in india';
 
     /**
      * The type of class being generated.

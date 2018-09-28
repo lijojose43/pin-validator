@@ -3,7 +3,7 @@
 namespace LijoJoses43\PinValidator;
 
 use Illuminate\Support\ServiceProvider;
-use LijoJoses43\PinValidator\Commands\PinValidatorMakeCommand;
+use LijoJoses43\PinValidator\Commands\MakePinValidatorCommand;
 
 class PinServiceProvider extends ServiceProvider
 {
@@ -16,7 +16,7 @@ class PinServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                PinValidatorMakeCommand::class,
+                MakePinValidatorCommand::class,
             ]);
         }
     }

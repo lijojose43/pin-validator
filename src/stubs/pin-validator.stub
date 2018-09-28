@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Rules;
+namespace DummyNamespace;
 
 use GuzzleHttp\Client;
 use Illuminate\Contracts\Validation\Rule;
 
-class ValiidPin implements Rule
+class DummyClass implements Rule
 {
     /**
      * Determine if the validation rule passes.
