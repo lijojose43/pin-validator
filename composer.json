@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "LijoJoses43\\PinValidator": "src/"
+            "LijoJoses43\\PinValidator": "src/",
         }
     }
 }
