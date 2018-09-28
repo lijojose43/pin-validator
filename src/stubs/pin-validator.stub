@@ -24,7 +24,7 @@ class DummyClass implements Rule
         }
         return true;
     }
-     /**
+    /**
      * Get the validation error message.
      *
      * @return string
