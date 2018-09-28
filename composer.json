@@ -14,8 +14,8 @@
         "guzzlehttp/guzzle": "~5.3|~6.0"
     },
     "autoload": {
-        "psr-4": {
-            "LijoJoses43\\PinValidator": "src/",
+        "psr-0": {
+            "LijoJoses43\\PinValidator": "src/"
         }
     }
 }
