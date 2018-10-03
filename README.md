@@ -1,5 +1,5 @@
 # Laravel Custom Pin Validator
-Laravel Generator For Creating New Traits
+Laravel custom rule for validate pin numbers in INDIA
 
 ### Usage
 

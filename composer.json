@@ -1,6 +1,6 @@
 {
     "name": "lijojose43/pin-validator",
-    "description": "A Laravel Generator For Custom Pin Validator in India",
+    "description": "Laravel custom rule for validate pin numbers in INDIA",
     "type": "library",
     "license": "MIT",
     "authors": [
