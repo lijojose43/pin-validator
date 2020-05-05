@@ -1,4 +1,4 @@
-# Laravel Custom Pin Validator
+# Laravel Custom Pin Validator in India
 Laravel custom rule for validate pin numbers in INDIA
 
 ### Usage
